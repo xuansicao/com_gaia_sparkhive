@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bbdba7e-7e10-4202-8e8d-c0f91ba8b316" name="Default Changelist" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/com_gaia_sparkdepemp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APP/SparkToPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/HiveToPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/PGTruncate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utills/InitSpark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utills/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utills/PGProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/JDBCInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\testideaworkspace\job\com_gaia_sparkhive\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/jobsoft/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\jobsoft\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UYXeytJt76Ls5RS7sHJ3ceLMZP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.22167969" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\testideaworkspace\com.gaia.sparkhive\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SparkToPG">
+    <configuration name="SparkHive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SparkHive" />
+      <module name="com_gaia_sparkhive" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkToPG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="APP.SparkToPG" />
+      <module name="com_gaia_sparkhive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SparkToPG" />
+        <item itemvalue="Application.SparkHive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bbdba7e-7e10-4202-8e8d-c0f91ba8b316" name="Default Changelist" comment="" />
+      <created>1575534601975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575534601975</updated>
+      <workItem from="1575534604926" duration="1138000" />
+      <workItem from="1575618938198" duration="41000" />
+      <workItem from="1575618983410" duration="19000" />
+      <workItem from="1575625085210" duration="162000" />
+      <workItem from="1575625936726" duration="2316000" />
+      <workItem from="1575875625472" duration="5211000" />
+      <workItem from="1575945001999" duration="19565000" />
+      <workItem from="1575971560955" duration="367000" />
+      <workItem from="1575972582457" duration="44000" />
+      <workItem from="1575972750272" duration="8000" />
+      <workItem from="1575972839143" duration="57000" />
+      <workItem from="1575972982112" duration="2437000" />
+      <workItem from="1576027772149" duration="2624000" />
+      <workItem from="1576032205956" duration="13226000" />
+      <workItem from="1576116227809" duration="3766000" />
+      <workItem from="1576129748853" duration="458000" />
+      <workItem from="1576130336346" duration="10000" />
+      <workItem from="1576130352185" duration="5481000" />
+      <workItem from="1576136025743" duration="951000" />
+      <workItem from="1576136981515" duration="3046000" />
+      <workItem from="1576142104717" duration="7644000" />
+      <workItem from="1576203170367" duration="8874000" />
+      <workItem from="1576222244534" duration="3546000" />
+      <workItem from="1576474733643" duration="9105000" />
+      <workItem from="1576487482812" duration="4079000" />
+      <workItem from="1576548788679" duration="23000" />
+      <workItem from="1576549834764" duration="523000" />
+      <workItem from="1576831399882" duration="773000" />
+      <workItem from="1578554597989" duration="7712000" />
+      <workItem from="1579068002840" duration="1327000" />
+      <workItem from="1579080509408" duration="6224000" />
+      <workItem from="1579238117801" duration="3664000" />
+      <workItem from="1579572611020" duration="7000" />
+      <workItem from="1579587329025" duration="4242000" />
+      <workItem from="1579611472086" duration="2741000" />
+      <workItem from="1582525578708" duration="118000" />
+      <workItem from="1582525782935" duration="4000" />
+      <workItem from="1582525991980" duration="4000" />
+      <workItem from="1582527047062" duration="2242000" />
+      <workItem from="1582529789460" duration="174000" />
+      <workItem from="1582530000794" duration="2944000" />
+      <workItem from="1582534376816" duration="13000" />
+      <workItem from="1582535688287" duration="2005000" />
+      <workItem from="1582711381568" duration="1947000" />
+      <workItem from="1582769036159" duration="139000" />
+      <workItem from="1582782450115" duration="35000" />
+      <workItem from="1583811707286" duration="11857000" />
+      <workItem from="1583891283170" duration="16055000" />
+      <workItem from="1584077246005" duration="15591000" />
+      <workItem from="1584323307235" duration="3338000" />
+      <workItem from="1584438035819" duration="3274000" />
+      <workItem from="1584496628323" duration="3700000" />
+    </task>
+    <task id="LOCAL-00001" summary="业务一">
+      <created>1584438179867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584438179867</updated>
+    </task>
+    <task id="LOCAL-00002" summary="再次提交">
+      <created>1584439268387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584439268387</updated>
+    </task>
+    <task id="LOCAL-00003" summary="再次提交">
+      <created>1584441417821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584441417821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.idea" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/target" />
+    </ignored-roots>
+    <MESSAGE value="业务一" />
+    <MESSAGE value="再次提交" />
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="40" key="#Notifications" timestamp="1584498311835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="141" y="40" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584498311835" />
+    <state x="105" y="202" key="#Project_Structure" timestamp="1576137506321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="105" y="202" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576137506321" />
+    <state x="1107" y="231" key="#SparkHive" timestamp="1576131498177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1107" y="231" key="#SparkHive/0.0.1920.1040@0.0.1920.1040" timestamp="1576131498177" />
+    <state x="895" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583834761444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="895" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583834761444" />
+    <state x="1156" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1583892138571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1156" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583892138571" />
+    <state x="284" y="313" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576030843533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="284" y="313" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576030843533" />
+    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576486330655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576486330655" />
+    <state x="183" y="108" key="CommitChangelistDialog2" timestamp="1584500231599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="108" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584500231599" />
+    <state x="0" y="81" key="DiffContextDialog" timestamp="1584499918749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="81" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584499918749" />
+    <state x="509" y="263" key="FileChooserDialogImpl" timestamp="1584499797595">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="509" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584499797595" />
+    <state x="464" y="405" width="320" height="288" key="Github.ShareDialog" timestamp="1584497960858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="405" width="320" height="288" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584497960858" />
+    <state width="1077" height="292" key="GridCell.Tab.0.bottom" timestamp="1584094382067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1077" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
+    <state width="1077" height="292" key="GridCell.Tab.0.center" timestamp="1584094382067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1077" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
+    <state width="1077" height="292" key="GridCell.Tab.0.left" timestamp="1584094382067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1077" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
+    <state width="1077" height="292" key="GridCell.Tab.0.right" timestamp="1584094382067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1077" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
+    <state x="953" y="318" key="Maven.ArtifactSearchDialog" timestamp="1576033210962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="318" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576033210962" />
+    <state x="950" y="246" key="NewModule_or_Project.wizard" timestamp="1576131447010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="950" y="246" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576131447010" />
+    <state x="49" y="156" width="1040" height="708" key="SettingsEditor" timestamp="1584499763967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="49" y="156" width="1040" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584499763967" />
+    <state x="367" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584439301450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="367" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584439301450" />
+    <state x="405" y="519" key="com.intellij.ide.util.TipDialog" timestamp="1582711391439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="405" y="519" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582711391439" />
+    <state x="468" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584497277409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584497277409" />
+    <state x="572" y="220" key="new project wizard" timestamp="1578558946914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="220" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578558946914" />
+    <state x="382" y="259" width="672" height="677" key="run.anything.popup" timestamp="1584088322340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="382" y="259" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584088322340" />
+  </component>
+</project>
