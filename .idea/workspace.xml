@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bbdba7e-7e10-4202-8e8d-c0f91ba8b316" name="Default Changelist" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/com_gaia_sparkdepemp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APP/SparkToPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/HiveToPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/PGTruncate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utills/InitSpark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utills/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utills/PGProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/JDBCInfo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
+    <list default="true" id="8bbdba7e-7e10-4202-8e8d-c0f91ba8b316" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utills/DataSourceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/APP/SparkToPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APP/SparkToPG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/HiveToPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/HiveToPG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/PGTruncate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/PGTruncate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utills/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utills/JDBCUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,9 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCInfo.getAnnotaiton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com_gaia_sparkhive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utill" />
+      <option name="MAIN_CLASS_NAME" value="utill.JDBCInfo" />
+      <option name="METHOD_NAME" value="getAnnotaiton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SparkToPG" />
+        <item itemvalue="JUnit.JDBCInfo.getAnnotaiton" />
         <item itemvalue="Application.SparkHive" />
       </list>
     </recent_temporary>
@@ -201,7 +209,20 @@
       <workItem from="1584077246005" duration="15591000" />
       <workItem from="1584323307235" duration="3338000" />
       <workItem from="1584438035819" duration="3274000" />
-      <workItem from="1584496628323" duration="3700000" />
+      <workItem from="1584496628323" duration="4361000" />
+      <workItem from="1584501299689" duration="11000" />
+      <workItem from="1584587904350" duration="180000" />
+      <workItem from="1584934326956" duration="92000" />
+      <workItem from="1585042316021" duration="308000" />
+      <workItem from="1585042902577" duration="2073000" />
+      <workItem from="1585104726661" duration="1999000" />
+      <workItem from="1585106736317" duration="3387000" />
+      <workItem from="1585299871859" duration="1224000" />
+      <workItem from="1585532974835" duration="9000" />
+      <workItem from="1585533268036" duration="2495000" />
+      <workItem from="1585545308001" duration="6539000" />
+      <workItem from="1585618970453" duration="1209000" />
+      <workItem from="1585706527310" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="业务一">
       <created>1584438179867</created>
@@ -224,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584441417821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1584500348141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584500348141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,14 +274,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="141" y="40" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584498311835" />
-    <state x="105" y="202" key="#Project_Structure" timestamp="1576137506321">
+    <state x="681" y="69" key="#Project_Structure" timestamp="1585906664472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="105" y="202" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576137506321" />
-    <state x="1107" y="231" key="#SparkHive" timestamp="1576131498177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1107" y="231" key="#SparkHive/0.0.1920.1040@0.0.1920.1040" timestamp="1576131498177" />
+    <state x="681" y="69" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585906664472" />
     <state x="895" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583834761444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,66 +286,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583892138571" />
-    <state x="284" y="313" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576030843533">
+    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585115999097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="284" y="313" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576030843533" />
-    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576486330655">
+    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585115999097" />
+    <state x="477" y="114" key="CommitChangelistDialog2" timestamp="1585906659970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1039" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576486330655" />
-    <state x="183" y="108" key="CommitChangelistDialog2" timestamp="1584500231599">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="183" y="108" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584500231599" />
+    <state x="477" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585906659970" />
     <state x="0" y="81" key="DiffContextDialog" timestamp="1584499918749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="81" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584499918749" />
-    <state x="509" y="263" key="FileChooserDialogImpl" timestamp="1584499797595">
+    <state x="509" y="263" key="FileChooserDialogImpl" timestamp="1585710991605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="509" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584499797595" />
-    <state x="464" y="405" width="320" height="288" key="Github.ShareDialog" timestamp="1584497960858">
+    <state x="509" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585710991605" />
+    <state x="475" y="197" width="320" height="288" key="Github.ShareDialog" timestamp="1584500868915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="405" width="320" height="288" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584497960858" />
-    <state width="1077" height="292" key="GridCell.Tab.0.bottom" timestamp="1584094382067">
+    <state x="475" y="197" width="320" height="288" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584500868915" />
+    <state width="1272" height="72" key="GridCell.Tab.0.bottom" timestamp="1585564803559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
-    <state width="1077" height="292" key="GridCell.Tab.0.center" timestamp="1584094382067">
+    <state width="1272" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585564803559" />
+    <state width="1272" height="72" key="GridCell.Tab.0.center" timestamp="1585564803559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
-    <state width="1077" height="292" key="GridCell.Tab.0.left" timestamp="1584094382067">
+    <state width="1272" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585564803559" />
+    <state width="1272" height="72" key="GridCell.Tab.0.left" timestamp="1585564803559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
-    <state width="1077" height="292" key="GridCell.Tab.0.right" timestamp="1584094382067">
+    <state width="1272" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585564803559" />
+    <state width="1272" height="72" key="GridCell.Tab.0.right" timestamp="1585564803559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1077" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584094382067" />
-    <state x="953" y="318" key="Maven.ArtifactSearchDialog" timestamp="1576033210962">
+    <state width="1272" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585564803559" />
+    <state x="49" y="156" width="1040" height="708" key="SettingsEditor" timestamp="1584501307873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="318" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576033210962" />
-    <state x="950" y="246" key="NewModule_or_Project.wizard" timestamp="1576131447010">
+    <state x="49" y="156" width="1040" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584501307873" />
+    <state x="367" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584500602932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="950" y="246" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576131447010" />
-    <state x="49" y="156" width="1040" height="708" key="SettingsEditor" timestamp="1584499763967">
+    <state x="367" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584500602932" />
+    <state x="405" y="519" key="com.intellij.ide.util.TipDialog" timestamp="1585706527195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="49" y="156" width="1040" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584499763967" />
-    <state x="367" y="259" key="Vcs.Push.Dialog.v2" timestamp="1584439301450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="367" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584439301450" />
-    <state x="405" y="519" key="com.intellij.ide.util.TipDialog" timestamp="1582711391439">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="405" y="519" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582711391439" />
+    <state x="405" y="519" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585706527195" />
     <state x="468" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584497277409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

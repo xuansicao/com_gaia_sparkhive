@@ -1,5 +1,7 @@
 package common;
 
+import utills.JDBCUtil;
+
 import java.sql.*;
 
 public class PGTruncate {

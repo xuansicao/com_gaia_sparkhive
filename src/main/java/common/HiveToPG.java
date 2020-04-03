@@ -50,22 +50,3 @@ public class HiveToPG {
     }
 
 }
-
-//        String empsql = "select *,unix_timestamp() as data_version from ods_sftm_new.ods_org_emp";
-//        Dataset<Row> empDF = spark.sql(empsql);
-//        empDF.write().mode("append").jdbc(url,"dataman.ods_org_emp",pro);
-//
-//        // 2.查询hive数据  部门表
-//        String depsql = "select *,unix_timestamp() as data_version from ods_sftm_new.ods_org_dep";
-//        Dataset<Row> depDF = spark.sql(depsql);
-//        depDF.write().mode("append").jdbc(url,"dataman.ods_org_dep",pro);
-//
-//        // 3.查询 Hive经销商门店宽表
-//        String custsql = "select *,unix_timestamp() as data_version from dwd_sftm.dwd_cust";
-//        Dataset<Row> custDF = spark.sql(custsql);
-//        custDF.write().mode("append").jdbc(url,"dataman.dwd_cust",pro);
-//
-//        // 4.查询 hive 部门、员工、门店、经销商宽表
-//        String infosql = "select *,unix_timestamp() as data_version from dwd_sftm.dwd_base_info";
-//        Dataset<Row> inDF = spark.sql(infosql);
-//        inDF.write().mode("append").jdbc(url,"dataman.dwd_base_info",pro);

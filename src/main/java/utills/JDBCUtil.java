@@ -1,10 +1,9 @@
 package utills;
 
+import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class JDBCUtil {
@@ -14,6 +13,7 @@ public class JDBCUtil {
     private static String driver;
     private static Connection con;
     private static InputStream resourceAsStream;
+    private static DataSource ds ;
 
     public static String getUrl() {
         return url;
@@ -35,6 +35,7 @@ public class JDBCUtil {
 
         try {
             Properties properties = new Properties();
+            //把当前类加载至内存，获取配置文件信息
             ClassLoader classLoader = JDBCUtil.class.getClassLoader();
             resourceAsStream = classLoader.getResourceAsStream("JDBCInfo.properties");
             properties.load(resourceAsStream);
@@ -77,4 +78,23 @@ public class JDBCUtil {
         }
         return con;
     }
+
+    public static void closeConnection(ResultSet rs, PreparedStatement pst,Connection con){
+        try {
+            if(rs != null){
+                rs.close();
+            }
+            if(pst != null){
+                pst.close();
+            }
+            if(con != null){
+                con.close(); //归还连接
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 }
